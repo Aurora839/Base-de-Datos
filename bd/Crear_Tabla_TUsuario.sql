@@ -1,0 +1,5 @@
+CREATE TABLE riac.TUsuarios
+	(Id_TUsuario INT AUTO_INCREMENT NOT NULL, 
+	Nombre_TUsuario VARCHAR(255) NOT NULL, 
+	Descripcion VARCHAR(255) NOT NULL, 
+	PRIMARY KEY(Id_TUsuario)) ENGINE = InnoDB;

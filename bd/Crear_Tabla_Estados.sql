@@ -1,0 +1,4 @@
+CREATE TABLE riac.Estados
+	(Id_Estado INT AUTO_INCREMENT NOT NULL, 
+	Nombre_Estado VARCHAR(255) NOT NULL, 
+	PRIMARY KEY(Id_Estado) ) ENGINE = InnoDB;

@@ -1,0 +1,4 @@
+CREATE TABLE riac.Meses
+	(Id_Mes INT AUTO_INCREMENT NOT NULL, 
+	Nombre_Mes VARCHAR(255) NOT NULL,
+        PRIMARY KEY(Id_Mes))ENGINE = InnoDB;

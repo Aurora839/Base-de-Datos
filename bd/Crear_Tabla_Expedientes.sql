@@ -1,0 +1,8 @@
+CREATE TABLE riac.Expedientes
+	(Id_Expediente INT AUTO_INCREMENT NOT NULL, 
+	Matricula VARCHAR(255) NOT NULL, 
+	Calle VARCHAR(55) NOT NULL, 
+	Colonia VARCHAR(55) NOT NULL,
+	Numero VARCHAR(55) NOT NULL,
+	CP INT(5) NOT NULL,
+	PRIMARY KEY(Id_Expediente)) ENGINE = InnoDB;
